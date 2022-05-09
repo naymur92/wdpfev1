@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Answer-Question 3</title>
+	<style>
+		.container{
+			width: 780px;
+			height: 600px;
+			margin: 0 auto;
+			background-color: #F6BDBD;
+			border-radius: 5px;
+		}
+		.menu{
+			width: 180px;
+			height: 493px;
+			float: left;
+			border-radius: 5px;
+			background-color: #D0BDE2;
+			padding-left: 15px;
+		}
+		.content{
+			width: 563px;
+			height: 491px;
+			float: left;
+			border: 1px dotted black;
+			border-radius: 5px;
+			background-color: #B8EDF7;
+			text-align: center;
+			padding-left: 20px;
+		}
+		h1{
+			padding: 10px;
+			text-align: center;
+			color: #fff;
+			font-size: 3em;
+		}
+		a{
+			text-decoration: none;
+		}
+		iframe{
+			width: 563px;
+			height: 490px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>iFrame using DIV</h1>
+		<div class="menu">
+			<h2>Menu</h2><br>
+			<a href="Q1.html" target="myFrame">Question 1</a> <br>
+			<a href="Q2.html" target="myFrame">Question 2</a>
+		</div>
+		<div class="content">
+			<iframe src="Q1.html" frameborder="0" name="myFrame"></iframe>
+		</div>
+	</div>
+</body>
+</html>

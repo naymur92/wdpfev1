@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Answer- Question 1</title>
+	<style>
+		table, th, td{
+			border: 1px solid black;
+			border-collapse: collapse;
+			text-align: center;
+		}
+		table{
+			width: 500px;
+			height: 200px;
+			font-size: 120%;
+		}
+		table caption{
+			font-size: 2.5em;
+		}
+		th, td{
+			vertical-align: top;
+			padding: 5px;			
+		}
+		th:nth-child(2){
+			vertical-align: middle;
+		}
+		td:first-child{
+			text-align: left;
+		}
+		tr:first-child{
+			height: 20%;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<caption>Students Marks</caption>
+		<tr>
+			<th>Name</th>
+			<th rowspan="3">Result</th>
+			<th>Round</th>
+			<th>Marks</th>
+		</tr>
+		<tr>
+			<td><i>Tawhidul Islam</i></td>
+			<td>PWAD-46</td>
+			<td>70</td>
+		</tr>
+		<tr>
+			<td><i>Shaied Rana Hidoy</i></td>
+			<td>PWAD-50</td>
+			<td>90</td>
+		</tr>
+	</table>
+</body>
+</html>
